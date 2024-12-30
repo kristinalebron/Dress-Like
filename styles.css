@@ -1,0 +1,135 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #844989;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+main {
+    padding: 20px;
+    padding-bottom: 100px; /* Adds more space at the bottom of the main content */
+}
+
+.search-section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#character-name {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+#search-button {
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.results-section {
+    text-align: center;
+    margin-bottom: 50px; /* Adds space below the results */
+}
+
+#outfit-results {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 20px;
+    padding: 20px;
+}
+
+.outfit-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.outfit-item img {
+    width: 100%; /* Makes images fill the container */
+    height: auto; /* Maintains aspect ratio */
+    max-width: 200px; /* Limits the image width */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.product-list {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.product-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: white;
+}
+
+.product-item img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #844989;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.buy-button:hover {
+    background-color: #722a78;
+}
+.back-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #844989;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.back-button:hover {
+    background-color: #722a78;
+}
+.main-outfit-image {
+    width: 300px; /* Adjust the size of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Add spacing and center the image */
+    display: block; /* Ensures it's centered within its container */
+    border: 2px solid #ddd; /* Optional: Add a border for a polished look */
+    border-radius: 8px; /* Optional: Slightly rounded corners */
+}

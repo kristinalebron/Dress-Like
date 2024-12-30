@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Outfit Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dress Like...</h1>
+        <p>Find outfits inspired by your favorite TV or movie characters!</p>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <label for="character-name">Enter Character's Name:</label>
+            <input type="text" id="character-name" placeholder="e.g., Harry Potter" />
+            <button id="search-button">Search</button>
+        </section>
+
+        <section class="results-section">
+            <h2>Outfit Suggestions:</h2>
+            <div id="outfit-results">
+                <!-- Dynamic outfit items will appear here -->
+                <div class="outfit-item">
+                    <img src="rachelgreen.jpg" alt="rachelgreen">
+                    <p>Dress Like...Rachel Green</p>
+                    <button class="shop-button" onclick="location.href='rachelgreen.html';">Shop</button>
+                </div>
+                <div class="outfit-item">
+                    <img src="carriebradshaw.jpg" alt="carriebradshaw">
+                    <p>Dress Like...Carrie Bradshaw</p>
+                    <button class="shop-button" onclick="location.href='carriebradshaw.html';">Shop</button>
+                </div>
+                <div class="outfit-item">
+                    <img src="blairwaldorf.jpg" alt="blairwaldorf">
+                    <p>Dress Like...Blair Waldorf</p>
+                    <button class="shop-button" onclick="location.href='blairwaldorf.html';">Shop</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Character Outfit Finder. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
